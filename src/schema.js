@@ -3,7 +3,8 @@ const resolvers = require('./resolvers')
 
 const typeDefs = `
 type Query {
-  products: [Product]   
+  allProducts: [Product]
+  productDetails(pid: Int): Product
 }
 type Product {
     name: String
