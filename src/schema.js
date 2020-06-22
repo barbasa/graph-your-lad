@@ -2,13 +2,6 @@ const { makeExecutableSchema } = require('graphql-tools')
 const resolvers = require('./resolvers')
 
 const typeDefs = `
-type Query {
-  allProducts: [Product]
-  productDetails(pid: Int): Product
-}
-type Product {
-    onSale: Boolean
-    analyticsKey: String
     id: Int
     price: Price
 }
