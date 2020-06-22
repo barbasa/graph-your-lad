@@ -7,8 +7,6 @@ type Query {
   productDetails(pid: Int): Product
 }
 type Product {
-    name: String
-    visible: Boolean
     onSale: Boolean
     analyticsKey: String
     id: Int
@@ -18,6 +16,98 @@ type Price {
     currency: String
     divisor: Int
     amount: Int    
+}
+`
+
+module.exports =  makeExecutableSchema({ typeDefs, resolvers })
+
+
+    amount: Int    
+    amount: Int    
+    amount: Int    
+    amount: Int    
+    amount: Int    
+    amount: Int    
+    amount: Int    
+    amount: Int    
+    amount: Int    
+    amount: Int    
+    amount: Int    
+    amount: Int    
+    amount: Int    
+    amount: Int    
+    amount: Int    
+    amount: Int    
+    amount: Int    
+    amount: Int    
+}
+`
+
+module.exports =  makeExecutableSchema({ typeDefs, resolvers })
+}
+`
+
+module.exports =  makeExecutableSchema({ typeDefs, resolvers })
+}
+`
+
+module.exports =  makeExecutableSchema({ typeDefs, resolvers })
+}
+`
+
+module.exports =  makeExecutableSchema({ typeDefs, resolvers })
+}
+`
+
+module.exports =  makeExecutableSchema({ typeDefs, resolvers })
+}
+`
+
+module.exports =  makeExecutableSchema({ typeDefs, resolvers })
+}
+`
+
+module.exports =  makeExecutableSchema({ typeDefs, resolvers })
+}
+`
+
+module.exports =  makeExecutableSchema({ typeDefs, resolvers })
+}
+`
+
+module.exports =  makeExecutableSchema({ typeDefs, resolvers })
+}
+`
+
+module.exports =  makeExecutableSchema({ typeDefs, resolvers })
+}
+`
+
+module.exports =  makeExecutableSchema({ typeDefs, resolvers })
+}
+`
+
+module.exports =  makeExecutableSchema({ typeDefs, resolvers })
+}
+`
+
+module.exports =  makeExecutableSchema({ typeDefs, resolvers })
+}
+`
+
+module.exports =  makeExecutableSchema({ typeDefs, resolvers })
+}
+`
+
+module.exports =  makeExecutableSchema({ typeDefs, resolvers })
+}
+`
+
+module.exports =  makeExecutableSchema({ typeDefs, resolvers })
+}
+`
+
+module.exports =  makeExecutableSchema({ typeDefs, resolvers })
 }
 `
 
