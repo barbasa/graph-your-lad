@@ -29,7 +29,7 @@
   "homepage": "https://github.com/barbasa/graph-your-lad.git#readme",
   "dependencies": {
     "apollo-server-express": "^1.1.2",
-    "axios": "^0.16.2",
+    "axios": "^0.21.1",
     "body-parser": "^1.18.1",
     "express": "^4.15.4",
     "graphql": "^0.11.3",
