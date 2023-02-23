@@ -1,6 +1,6 @@
-{
+New element
+Another new
   "name": "graph-your-lad",
-  "version": "1.0.0",
   "description": "GraphQL example",
   "main": "index",
   "scripts": {
